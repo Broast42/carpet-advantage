@@ -57,10 +57,7 @@ html {
   background: #f2f2f2;
 }
 
-.App {
-  text-align: center;
-}
-
+/* header */
 header{
   padding: 10px 20px;
   display: flex;
@@ -114,10 +111,17 @@ nav li{
   display: none;
 }
 
-.small-nav{
+.small-nav-1{
   display: none;
 }
 
+.small-nav-an{
+  animation-name: nav-bar;
+  animation-duration: 2.5s;
+}
+
+
+/* display */
 .disNone{
   display: none;
 }
@@ -128,6 +132,7 @@ nav li{
 
 /* tablet styles */
 @media (max-width: 768px){
+  /* header */
   header{
     display: block;
     text-align: center;
@@ -146,22 +151,23 @@ nav li{
     cursor: pointer;
   }
 
-  .small-nav{
+  .small-nav-1{
     position: absolute;
-    border: 1px solid black;
+    border-top: 1px solid black;
     width: 100%;
-    min-height: 70px;
-    background-color: rgba(0, 64, 225, 0.7);
     text-align: center;
     font-size: 1.5rem;
+    background: linear-gradient(to right,rgba(0, 64, 225, 0.7) 25%, rgba(255, 255, 0, 0.7) 100%);
+    overflow: hidden;
+    
   }
 
-  .small-nav ul{
+  .small-nav-1 ul{
     margin-top: 25px;
     
   }
 
-  .small-nav li{
+  .small-nav-1 li{
     height: 40px;
     color: white;
     text-shadow: 1px 1px 2px black;
@@ -171,6 +177,7 @@ nav li{
 
 /* cell phone styles */
 @media (max-width: 400px){
+  /* Header */
   header{
     display: block;
     text-align: center;
@@ -184,3 +191,9 @@ nav li{
     font-size: 2.2rem; 
   }
 }
+
+@keyframes nav-bar{
+  from{height: 0px; font-size: 0rem}
+  to{height: 226px; font-size: 1.5rem}
+}
+
