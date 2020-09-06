@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function Header() {
     const links = [
         {name: "HOME", link: '#'},
@@ -34,14 +35,16 @@ function Header() {
             </div>
              
         </nav>
-        <div className={`small-nav ${menuOpen === false ? "disNone": 'disBlock'}`} >
+     
+        <div className={`small-nav-1 ${menuOpen === false ? "disNone": 'disBlock small-nav-an'}`} >
             <ul>
                 {links.map((x, i) => (
                     <li id={i}>{x.name}</li>
                 ))}    
             </ul>
+            
+        </div>       
            
-        </div>   
     </div>
     
   );
