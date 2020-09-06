@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;   
+}
+
+html {
+  font-size: 62.5%;
+  background: #f2f2f2;
+}
+
+.App {
+  text-align: center;
+}
+
+header{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+header h1{
+  font-family: 'Limelight', cursive;
+  font-size: 3.3rem;
+  color: #0040ff;
+  text-shadow: 1px 1px 2px yellow, 1px 1px 3px black;
+}
+
+.ph-num{
+  font-size: 2.6rem;
+  
+}
+
+.ph-num a{
+  text-decoration:none;
+  color: black;
+  cursor: pointer;
+}
+
+nav{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0040ff 25%, #ffff00 100%);
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav li{
+  width: 150px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.menu-btn{
+  display: none;
+}
+
+.small-nav{
+  display: none;
+}
+
+.disNone{
+  display: none;
+}
+
+.disBlock{
+  display: block;
+}
+
+/* tablet styles */
+@media (max-width: 768px){
+  header{
+    display: block;
+    text-align: center;
+  }
+  .main-nav{
+    display: none;
+  }
+  nav{
+    justify-content:flex-end;
+  }
+
+  .menu-btn{
+    display: block;
+    margin-right: 20px;;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .small-nav{
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    min-height: 70px;
+    background-color: rgba(0, 64, 225, 0.7);
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .small-nav ul{
+    margin-top: 25px;
+    
+  }
+
+  .small-nav li{
+    height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+
+}
+
+/* cell phone styles */
+@media (max-width: 400px){
+  header{
+    display: block;
+    text-align: center;
+  }
+
+  header h1{
+    font-size: 3rem;
+  }
+
+  .ph-num{
+    font-size: 2.2rem; 
+  }
+}
