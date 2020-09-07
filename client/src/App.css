@@ -84,7 +84,7 @@ header h1{
   cursor: pointer;
 }
 
-nav{
+.top-nav{
   height: 50px;
   display: flex;
   align-items: center;
@@ -120,6 +120,29 @@ nav li{
   animation-duration: 2.5s;
 }
 
+/* footer */
+footer{
+  background: linear-gradient(to right, #0040ff 25%, #ffff00 100%);
+  padding: 20px;
+  
+}
+
+.copyright{
+  margin-top: 35px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white
+}
+
+.noaa{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: white
+}
+
+
+
 
 /* display */
 .disNone{
@@ -140,7 +163,7 @@ nav li{
   .main-nav{
     display: none;
   }
-  nav{
+  .top-nav{
     justify-content:flex-end;
   }
 
@@ -173,6 +196,13 @@ nav li{
     text-shadow: 1px 1px 2px black;
   }
 
+  /* footer */
+  footer li{
+    font-size: 1.2rem;
+  }
+
+ 
+
 }
 
 /* cell phone styles */
@@ -189,6 +219,10 @@ nav li{
 
   .ph-num{
     font-size: 2.2rem; 
+  }
+  /* footer */
+  footer li{
+    font-size: 1rem;
   }
 }
 
