@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-
+import {links} from '../data'
 
 function Header() {
-    const links = [
-        {name: "HOME", link: '#'},
-        {name: "SERVICES", link: '#'},
-        {name: "BEFORE AND AFTER", link: '#'},
-        {name: "GO CAMPING", link: '#'},
-        {name: "ABOUT US", link:"#"}
-    ]
+    // const links = [
+    //     {name: "HOME", link: '#'},
+    //     {name: "SERVICES", link: '#'},
+    //     {name: "BEFORE AND AFTER", link: '#'},
+    //     {name: "GO CAMPING", link: '#'},
+    //     {name: "ABOUT US", link:"#"}
+    // ]
 
     const [menuOpen, setMenuOpen] = useState(false)
 
@@ -23,7 +23,7 @@ function Header() {
                 </a>
             </div>
         </header>
-        <nav>
+        <nav className="top-nav">
             <ul class="main-nav">
                 {links.map((x, i) => (
                     <li id={i}>{x.name}</li>
@@ -37,11 +37,14 @@ function Header() {
         </nav>
      
         <div className={`small-nav-1 ${menuOpen === false ? "disNone": 'disBlock small-nav-an'}`} >
+            
             <ul>
                 {links.map((x, i) => (
                     <li id={i}>{x.name}</li>
                 ))}    
-            </ul>
+            </ul> 
+            
+            
             
         </div>       
            
