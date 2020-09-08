@@ -57,6 +57,11 @@ html {
   background: #f2f2f2;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 /* header */
 header{
   padding: 10px 20px;
@@ -89,7 +94,7 @@ header h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #0040ff 25%, #ffff00 100%);
+  background: linear-gradient(to right, #0040ff 25%, #4d79ff 100%);
 }
 
 nav ul{
@@ -103,7 +108,7 @@ nav li{
   width: 150px;
   text-align: center;
   font-size: 1.4rem;
-  color: white;
+  color: #ffff00;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -120,9 +125,76 @@ nav li{
   animation-duration: 2.5s;
 }
 
+/* home */
+
+section{
+  padding: 20px;
+}
+
+.home-main-section{
+  display: flex;
+}
+
+.tag-box{
+  width: 40%;
+  height: 370px;
+  border: 4px outset #4d79ff;
+  background: linear-gradient(to top, #ffff00 0%, #ffffcc 100%);
+  text-align: center;
+  padding: 70px;
+ 
+}
+
+.tag-box h2{
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#0040ff ;
+  text-shadow: 1px 1px 2px #4d79ff;
+}
+
+.tag-line-2{
+  margin-top: 40px;
+}
+
+.tag-box p{
+  font-size: 2rem;
+  margin: 3px;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+}
+
+.pic-real-box{
+  width: 60%;
+  height: 370px;
+  border: 1px solid black; 
+  background: #4d79ff;
+}
+
+.pic-box{
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+  
+}
+
+.pic-box img{
+  width: 100%;
+
+}
+
+.pic-descript{
+  font-size: 1.2rem;
+  margin: 10px 10px;
+}
+
+.pic-an{
+  animation-name: pic-real;
+  animation-duration: 4s;
+}
+
 /* footer */
 footer{
-  background: linear-gradient(to right, #0040ff 25%, #ffff00 100%);
+  background: linear-gradient(to right, #0040ff 25%, #4d79ff 100%);
   padding: 20px;
   
 }
@@ -153,6 +225,27 @@ footer{
   display: block;
 }
 
+/* Special break point for tag box and pic real */
+@media (max-width: 900px){
+  .home-main-section{
+    flex-direction: column;
+  }
+
+  .tag-box, .pic-real-box{
+    width: 100%;
+  }
+
+  .tag-box{
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px){
+  .pic-real-box{
+    height: 300px;
+  }
+}
+
 /* tablet styles */
 @media (max-width: 768px){
   /* header */
@@ -180,7 +273,7 @@ footer{
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    background: linear-gradient(to right,rgba(0, 64, 225, 0.7) 25%, rgba(255, 255, 0, 0.7) 100%);
+    background: linear-gradient(to right,rgba(0, 64, 225, 0.8) 25%, rgba(77, 121, 255, 0.8) 100%);
     overflow: hidden;
     
   }
@@ -192,9 +285,12 @@ footer{
 
   .small-nav-1 li{
     height: 40px;
-    color: white;
+    color: #ffff00;
     text-shadow: 1px 1px 2px black;
   }
+
+  /* home */
+
 
   /* footer */
   footer li{
@@ -220,6 +316,27 @@ footer{
   .ph-num{
     font-size: 2.2rem; 
   }
+
+  /* home */
+
+  .tag-box h2{
+    font-size: 3rem;
+  }
+
+  .tag-box p{
+    font-size: 1.5rem
+  }
+
+  .pic-real-box{
+    height: 230px;
+  }
+
+  .pic-descript{
+    margin-top: 0px
+  }
+
+
+
   /* footer */
   footer li{
     font-size: 1rem;
@@ -229,5 +346,10 @@ footer{
 @keyframes nav-bar{
   from{height: 0px; font-size: 0rem}
   to{height: 226px; font-size: 1.5rem}
+}
+
+@keyframes pic-real{
+  from{opacity: 0.5;}
+  to{opacity: 1;}
 }
 
