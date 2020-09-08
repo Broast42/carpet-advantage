@@ -8,7 +8,7 @@ function Footer() {
         <nav>
             <ul>
                 {links.map((x, i) => (
-                    <li id={i}>{x.name}</li>
+                    <li key={i}>{x.name}</li>
                 ))}    
             </ul>  
         </nav>
@@ -17,7 +17,7 @@ function Footer() {
             Copyright {String.fromCharCode(169)} {new Date().getFullYear()} Carpet Advantage - All Rights Reserved.
         </p>
         <p className='noaa'>
-            MEMBER OF NOAA
+            <a href="https://www.noaamembers.com/">PROUD MEMBER OF THE NOAA</a>
         </p>
     
         
