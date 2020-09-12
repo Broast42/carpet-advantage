@@ -112,6 +112,11 @@ nav li{
   text-shadow: 1px 1px 2px black;
 }
 
+nav li:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .menu-btn{
   display: none;
 }
@@ -190,6 +195,41 @@ section{
 .pic-an{
   animation-name: pic-real;
   animation-duration: 4s;
+}
+
+/* home - electro */
+
+.electro-box{
+  margin: 20px 15px 15px 15px;
+  border: 4px solid #0040ff;
+  min-height: 500px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+
+.new-title-box{
+  position: relative;
+  text-align: center;
+  bottom: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 5rem;
+  width: 160px;
+  margin: 0px auto;
+  background: #f2f2f2;
+  border-radius: 20px;
+}
+
+.new-text{
+  animation:blinking 2s infinite;
+  
+  /* text-shadow: 2px 2px 3px black */
+}
+
+.electro-title{
+  text-align: center;
+  font-size: 3rem;
+  
 }
 
 /* footer */
@@ -289,6 +329,11 @@ footer{
     text-shadow: 1px 1px 2px black;
   }
 
+  .small-nav-1 li:hover{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
   /* home */
 
 
@@ -353,3 +398,10 @@ footer{
   to{opacity: 1;}
 }
 
+@keyframes blinking{
+  0%{     color: red; text-shadow: 2px 2px 3px black;   }
+  49%{    color: red;text-shadow: 4px 4px 3px black;}
+  60%{    color: transparent; text-shadow: none;}
+  99%{    color:transparent; text-shadow: none; }
+  100%{   color: red; text-shadow: 2px 2px 3px black;   }
+}
