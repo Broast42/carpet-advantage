@@ -33,16 +33,16 @@ function Home() {
                     </div>
                     
                 </div>
-                <div className="pic-real-box">
+                <figure className="pic-real-box">
                         <div className="pic-box">
                             <img className={`pic-an ${before === true ? "disBlock": "disNone"}`} src={before1} alt="Dirty Carpet"/>
                             <img className={`pic-an ${after === true ? "disBlock": "disNone"}`} src={after1} alt="Dirty Carpet"/>
                         </div>
-                        <div className="pic-descript">
+                        <figcaption className="pic-descript">
                             <p className={` ${before === true ? "disBlock": "disNone"}`}>BEFORE -- "This isn't surprising, a lot of vacants look like this."</p>
                             <p className={` ${after === true ? "disBlock": "disNone"}`}>AFTER -- "Awesome, now our resident can move in"</p>
-                        </div>
-                </div>
+                        </figcaption>
+                </figure>
             </section>
 
             <Electro/>
