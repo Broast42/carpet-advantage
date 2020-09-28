@@ -54,7 +54,7 @@ table {
 
 html {
   font-size: 62.5%;
-  background: #f2f2f2;
+  background: linear-gradient(to bottom, #f2f2f2 0%, #e6e6e6 100%);
 }
 
 a{
@@ -370,6 +370,38 @@ section{
   width: 250px;
 }
 
+.hb-heading-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hb-heading{
+  border-bottom: 1px solid darkgrey;
+  width: 500px;
+
+}
+
+.hb-heading h3{
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#0040ff ;
+  text-shadow: 1px 1px 2px #4d79ff;
+  text-align: center;
+  
+}
+
+.bottom-box{
+  display: flex;
+  min-height: 300px;
+  padding: 10px
+}
+
+.bottom-section{
+  width: 33%;
+  border: 1px solid black;
+}
+
 /* footer */
 footer{
   background: linear-gradient(to right, #0040ff 25%, #4d79ff 100%);
@@ -506,6 +538,16 @@ footer{
 
   /* home */
 
+  .bottom-box{
+    flex-direction: column;
+  }
+
+  .bottom-section{
+    width: 100%;
+    min-height: 300px;
+  }
+
+
 
   /* footer */
   footer li{
@@ -549,8 +591,6 @@ footer{
   .pic-descript{
     margin-top: 0px
   }
-
-
 
   /* footer */
   footer li{

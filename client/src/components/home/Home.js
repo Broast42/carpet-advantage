@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Electro from './Electro'
 import before1 from './realimg/before1.jpg'
 import after1 from './realimg/after1.jpg'
@@ -9,11 +9,11 @@ function Home() {
     const [before, setBefore] = useState(true)
     const [after, setAfter] = useState(false)
 
-    const setPic = () => {
+    const setPic = useCallback(() => {
         setBefore(!before)
         setAfter(!after)
         
-    }
+    },[before, after])
     
     useEffect(() =>{
         setTimeout(setPic, 7000)    
@@ -46,6 +46,27 @@ function Home() {
             </section>
 
             <Electro/>
+
+            <section className="home-bottom">
+                <div className="hb-heading-box">
+                    <div className="hb-heading">
+                      <h3>SERVING NORTHEAST OHIO</h3>  
+                    </div>   
+                </div>
+                <div className="bottom-box">
+                    <div className="bottom-section">
+                        test
+                    </div>
+                    <div className="bottom-section">
+                        test
+                    </div>
+                    <div className="bottom-section">
+                        test
+                    </div>
+
+                </div>
+                
+            </section>
 
         </main>
         
