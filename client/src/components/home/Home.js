@@ -36,7 +36,7 @@ function Home() {
                 <figure className="pic-real-box">
                         <div className="pic-box">
                             <img className={`pic-an ${before === true ? "disBlock": "disNone"}`} src={before1} alt="Dirty Carpet"/>
-                            <img className={`pic-an ${after === true ? "disBlock": "disNone"}`} src={after1} alt="Dirty Carpet"/>
+                            <img className={`pic-an ${after === true ? "disBlock": "disNone"}`} src={after1} alt="Clean Carpet"/>
                         </div>
                         <figcaption className="pic-descript">
                             <p className={` ${before === true ? "disBlock": "disNone"}`}>BEFORE -- "This isn't surprising, a lot of vacants look like this."</p>

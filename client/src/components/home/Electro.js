@@ -78,7 +78,7 @@ function Electro() {
                     <div className="info-bubble buble-pos4">
                         <div className="info-bubble-flex">
                             <div className="bubble-outer back-green">
-                                <p>Can be preformed during regular business hours</p>
+                                <p>Can be preformed during business hours</p>
                             </div>
                             <div className="extra-info">
                                 
