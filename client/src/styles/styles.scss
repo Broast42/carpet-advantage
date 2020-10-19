@@ -1,0 +1,12 @@
+/*Initialization imports */
+@import './init/reset.scss';
+@import './init/variables.scss';
+@import './init/mixins.scss';
+@import './init/global.scss';
+
+/*component imports*/
+@import './component/header.scss';
+@import './component/tag-box.scss';
+@import './component/new.scss';
+@import './component/electrostatic.scss';
+@import './component/footer.scss';

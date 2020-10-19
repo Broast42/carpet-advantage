@@ -6,7 +6,7 @@ function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
-        <div>
+        <div >
             <header>
                 <h1><a href="http://www.carpet-advantage.com">Carpet Advantage</a></h1>
                 
@@ -42,6 +42,7 @@ function Header() {
             </div>       
             
         </div>
+        
     
     );
 }

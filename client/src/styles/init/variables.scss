@@ -1,0 +1,20 @@
+/* font types */
+$logo-font: 'Limelight', cursive;
+$tag-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$new-font: 'Luckiest Guy', cursive;
+/* colors */
+$blue: #0040ff;
+$ltblue:  #4d79ff;
+$yellow: #ffff00;
+$ltyellow: #ffffcc;
+$black: #000000;
+$white: #ffffff;
+
+/* Gradients */
+$blue-ltblue: linear-gradient(to right, #0040ff 25%, #4d79ff 100%);
+$yellow-ltyellow: linear-gradient(to top, #ffff00 0%, #ffffcc 100%);
+
+/*break points */
+$small-pc: 900px;
+$tablet: 768px;
+$phone: 400px;

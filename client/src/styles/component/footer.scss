@@ -1,0 +1,31 @@
+footer{
+    background: $blue-ltblue;
+    padding: 20px;
+
+    .copyright{
+        margin-top: 35px;
+        text-align: center;
+        font-size: 1.2rem;
+        color: $white
+    }
+    .noaa{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 1.4rem;
+        color: $white
+    }
+    
+    @media (max-width: $tablet) {
+        nav {
+            display: none;  
+        }
+        
+        .copyright {
+            margin-top: 0px;
+        }
+            
+    }
+}
+
+
+  
