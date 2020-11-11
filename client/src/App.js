@@ -2,16 +2,22 @@ import React from 'react';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/pages/home/Home'
-//import './App.css';
+import { Switch, Route } from 'react-router-dom';
 import './styles/styles.scss'
 
 function App() {
   return (
     <div>
       <Header/>
-
-      <Home/>
-
+      
+      <Switch>
+        
+        <Route path="/" >
+          <Home/>
+        </Route>
+      
+      </Switch>
+    
       <Footer/>
     </div>
     
