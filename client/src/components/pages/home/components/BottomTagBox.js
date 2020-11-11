@@ -1,7 +1,7 @@
 import React from 'react';
 import apartmentbld from './bottomtagimg/apartmentbld.jpg';
 import houses from './bottomtagimg/houses.jpeg';
-import rotovac from './bottomtagimg/rotovac.jpeg';
+import RotovacFrontView from './bottomtagimg/RotovacFrontView.jpg';
 
 const BottomTagBox = () => {
     return(
@@ -32,7 +32,7 @@ const BottomTagBox = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={rotovac} alt="Rotovac wand head"/>
+                    <img src={RotovacFrontView} alt="Rotovac wand head"/>
                     <div className="btm-tag-title" >
                         <h3>Equipment, solutions, technique, and customer relationships</h3>
                     </div>
