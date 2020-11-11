@@ -97,7 +97,7 @@ function ElectroStatic() {
                     </div>
                 </div>
             </div>
-            <button onClick = {() => changePanel()}>test</button>
+            {/* <button onClick = {() => changePanel()}>test</button> */}
         </div>
     
   );

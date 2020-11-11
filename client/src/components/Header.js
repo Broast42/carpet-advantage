@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {links} from '../data'
+import calogo from './calogo.png'
 
 function Header() {
     
@@ -8,7 +9,13 @@ function Header() {
     return (
         <div >
             <header>
-                <h1><a href="http://www.carpet-advantage.com">Carpet Advantage</a></h1>
+                
+                <h1>
+                    <a href="http://www.carpet-advantage.com">
+                        <img src={calogo} alt="carpet advantage logo"/>
+                        Carpet Advantage
+                    </a>
+                </h1>
                 
                 <div className="ph-num">
                     <a href="tel:440-729-8350">

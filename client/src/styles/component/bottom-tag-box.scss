@@ -1,0 +1,48 @@
+.btm-title{
+    font-size: 4rem;
+    text-align: center;
+    color: $blue;
+    margin: 50px;
+}
+.bottom-tag-container{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    @media (max-width: $small-pc) {
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    div{
+        text-align: center;
+        width: 300px;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    img{
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        border: 2px solid $yellow;
+        box-shadow: 1px 1px 1px $ltblue;
+        margin: 20px;
+    }
+
+    .btm-tag-title{
+        height: 75px;
+    }
+
+    .btm-tag-info{
+        margin-bottom: 50px;
+        font-size: 1.5rem;
+
+        p{
+            margin: 5px 0px;
+        }
+    }
+}
+
