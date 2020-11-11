@@ -4,6 +4,13 @@ header {
     display: flex;
     justify-content: space-between;
 
+    img{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
     h1 {
         font-family: $logo-font;
         font-size: 3.3rem;
@@ -20,6 +27,7 @@ header {
 
 .ph-num {
     font-size: 2.8rem;
+    margin-top: 8px;
 }
 
 .main-nav{
