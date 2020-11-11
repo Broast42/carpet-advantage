@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import {links} from '../data'
 import calogo from './calogo.png'
 
@@ -26,7 +27,9 @@ function Header() {
             <nav className="top-nav">
                 <ul className="main-nav">
                     {links.map((x, i) => (
-                        <li key={i}>{x.name}</li>
+                        <NavLink to={x.link} activeClassName="selected-link">
+                            <li key={i}>{x.name}</li>
+                        </NavLink>    
                     ))}
                 </ul>
                 
