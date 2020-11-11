@@ -1,7 +1,7 @@
 import React from 'react';
 import apartmentbld from './bottomtagimg/apartmentbld.jpg';
 import houses from './bottomtagimg/houses.jpeg';
-import rotovac from './bottomtagimg/rotovac.jpeg';
+import rotovac from './bottomtagimg/RotovacFrontView.jpg';
 
 const BottomTagBox = () => {
     return(
