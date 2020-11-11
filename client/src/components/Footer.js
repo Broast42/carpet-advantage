@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { links } from '../data'
 
 function Footer() {
@@ -8,7 +9,9 @@ function Footer() {
         <nav>
             <ul>
                 {links.map((x, i) => (
-                    <li key={i}>{x.name}</li>
+                     <NavLink to={x.link} activeClassName="selected-link">
+                        <li key={i}>{x.name}</li>
+                    </NavLink>
                 ))}    
             </ul>  
         </nav>
