@@ -24,7 +24,8 @@ function TagBox() {
     },[setPic])
 
     const contentStyle = {
-        height: '370px',
+        height: '368px',
+        width: '100%',
         color: '#fff',
         lineHeight: '160px',
         textAlign: 'center',
