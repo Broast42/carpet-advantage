@@ -7,7 +7,7 @@ const BottomTagBox = () => {
     return(
         <div>
             <div className="btm-title">
-                <h2>Serving North East Ohio</h2>
+                <h2>Serving Northeast Ohio</h2>
             </div>
             <div  className="bottom-tag-container">
                 <div>
