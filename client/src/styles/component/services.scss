@@ -1,9 +1,16 @@
 .services{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     h1{
         font-size: 3.5rem;
         color: $blue;
+        text-decoration: underline;
+    }
+    
+    h2{
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin: 10px 0;
     }
 }
 
@@ -14,4 +21,38 @@
 
 .service-window{
     display: flex;
+    margin: 20px 0px;
+
+    @media (max-width: $tablet) {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.services-list-window{
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    p{
+        font-size: 1.4rem;
+        margin: 5px 0;
+    }
+
+    @media (max-width: $tablet) {
+       
+            
+    }
+}
+
+.service-card{
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 40px;
 }
