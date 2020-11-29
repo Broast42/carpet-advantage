@@ -55,7 +55,7 @@ const Library = () => {
 
             <div className="doc-vid-box">
                 {videos.map((vid, index) => (
-                    <div key={index}>
+                    <div key={index} className="video">
                         <ReactPlayer 
                             url={vid.url}
                             height= '250px'
