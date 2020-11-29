@@ -84,11 +84,30 @@ const aboutTags = [
             "Vacant apartments, Occupied Apartments and Common Areas."
         ]
     },
-] 
+]
+
+const library = [
+    {
+        name: 'Renewal Carpet Cleaning',
+        desc: 'Information on carpet cleaning for tennants who have renewed their lease.',
+        link:'Renewal', 
+    },
+    {
+        name: 'Electrostatic disinfecting',
+        desc: 'A quick overview of Electrostatic Disinfecting',
+        link:'Electrostatic', 
+    },
+    {
+        name: 'Electrostatic Q & A',
+        desc: 'A more in-depth look into Electrostatic Disinfecting',
+        link:'ElectroQA', 
+    },
+]
 
 export {
     links,
     videos,
     services,
     aboutTags,
+    library,
 }

@@ -1,0 +1,90 @@
+.library{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    h1{
+        font-size: 3.5rem;
+        color: $blue;
+        text-decoration: underline;
+    }
+
+    
+}
+
+.library-heading{
+    text-align: center;
+    margin-bottom: 40px;
+
+    h2{
+        font-size: 2.2rem;
+
+    }
+}
+
+.doc-window{
+    width: 50%;
+    margin: 0px auto;
+
+    @media (max-width: $tablet) {
+        width: 90%;
+    }
+}
+
+.document-box{
+    display: flex;
+
+    h3{
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+    }
+
+    button{
+        width: 100px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
+
+    .btn-view{
+        background: $blue;
+        color: $yellow;
+
+        &:hover{
+            background-color:$ltblue;
+        }
+    }
+
+    .btn-dwn{
+        background: $yellow;
+        color: $blue;
+
+        &:hover{
+            background-color: $ltyellow;
+        }
+    }
+
+    .doc-desc{
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .doc-btn{
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+.doc-vid-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+}

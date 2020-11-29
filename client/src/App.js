@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Home from './components/pages/home/Home'
 import Services from './components/pages/services/Services';
 import About from './components/pages/about/About';
+import Library from './components/pages/library/Library';
 import { Switch, Route } from 'react-router-dom';
 import './styles/styles.scss'
 
@@ -13,6 +14,10 @@ function App() {
       <Header/>
       
       <Switch>
+
+        <Route path="/library">
+          <Library/>
+        </Route>
 
         <Route path="/about">
           <About />
