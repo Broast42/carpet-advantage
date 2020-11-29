@@ -63,8 +63,32 @@ const services = [
     },
 ]
 
+const aboutTags = [
+    {
+        pic: 'apartment',
+        alt: 'A hi-rise appartment complex',
+        tagline: 'Specializing in serving the apartment industry since 1989',
+        descrips: [
+            "Get market ready with us for your vacant apartments!",
+            "Reward your residents with renewal cleans of their apartment.",
+            "Keep your common areas clean and fresh, your residents will love it!"
+        ]
+    },
+    {
+        pic: 'apartment2',
+        alt: 'Town home and apartment complex',
+        tagline: 'Long term relationships with all sizes of multi-family housing',
+        descrips: [
+            "Hi Rise Apartment Complexes and Town homes.",
+            "1, 2, 3 bedroom apartments in any style complex.",
+            "Vacant apartments, Occupied Apartments and Common Areas."
+        ]
+    },
+] 
+
 export {
     links,
     videos,
     services,
+    aboutTags,
 }
