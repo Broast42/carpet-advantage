@@ -6,7 +6,7 @@ import { videos } from '../../../data';
 const Services = () => {
 
     return (
-        <div className="services">
+        <section className="services">
             <h1>Services</h1>
             <div className="service-window">
                 <div>
@@ -31,7 +31,7 @@ const Services = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
 
     )
 };
