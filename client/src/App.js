@@ -5,6 +5,7 @@ import Home from './components/pages/home/Home'
 import Services from './components/pages/services/Services';
 import About from './components/pages/about/About';
 import Library from './components/pages/library/Library';
+import Camp from './components/pages/camp/Camp';
 import { Switch, Route } from 'react-router-dom';
 import './styles/styles.scss'
 
@@ -14,6 +15,10 @@ function App() {
       <Header/>
       
       <Switch>
+
+        <Route path="/camp">
+          <Camp/>
+        </Route>
 
         <Route path="/library">
           <Library/>

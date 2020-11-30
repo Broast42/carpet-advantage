@@ -43,7 +43,9 @@ function Header() {
                 
                 <ul>
                     {links.map((x, i) => (
-                        <li key={i}>{x.name}</li>
+                        <NavLink to={x.link} activeClassName="selected-link">
+                            <li key={i}>{x.name}</li>
+                        </NavLink>
                     ))}    
                 </ul> 
                 

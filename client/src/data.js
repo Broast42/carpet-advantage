@@ -3,7 +3,7 @@ const links = [
     {name: "SERVICES", link: '/services'},
     {name: "BEFORE AND AFTER", link: '/beforeandafter'},
     {name: "LIBRARY", link: "/library"},
-    {name: "GO CAMPING", link: '/camping'},
+    {name: "GO CAMPING", link: '/camp'},
     {name: "ABOUT US", link:"/about"}
 ]
 
