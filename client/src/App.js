@@ -6,6 +6,7 @@ import Services from './components/pages/services/Services';
 import About from './components/pages/about/About';
 import Library from './components/pages/library/Library';
 import Camp from './components/pages/camp/Camp';
+import BeforAndAfter from './components/pages/before-after/BeforeAndAfter';
 import { Switch, Route } from 'react-router-dom';
 import './styles/styles.scss'
 
@@ -15,6 +16,10 @@ function App() {
       <Header/>
       
       <Switch>
+
+        <Route path="/beforeandafter">
+          <BeforAndAfter/>
+        </Route>
 
         <Route path="/camp">
           <Camp/>
