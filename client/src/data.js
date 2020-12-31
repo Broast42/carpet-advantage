@@ -218,6 +218,12 @@ const beforeAfter = [
 
 ]
 
+const message = {
+    status: true,
+    title: "Happy New Year!",
+    message: "Everyone here at Carpet Advantage would like to wish you the very best in 2021. Welcome to our newly re-designed website. Please browse around and see what we have to offer. We would love to service all your carpet needs in this new year."
+}
+
 export {
     links,
     videos,
@@ -225,4 +231,5 @@ export {
     aboutTags,
     library,
     beforeAfter,
+    message,
 }
