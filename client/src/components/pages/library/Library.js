@@ -1,26 +1,9 @@
 import React from 'react';
 import ReactPlayer from 'react-player/youtube';
-import Renewal from '../../../docs/renewal.pdf';
-import Electrostatic from '../../../docs/electrostatic-quick-sheet.pdf';
-import ElectroQA from '../../../docs/electrostatic-qa.pdf';
 import { library, videos } from '../../../data';
 
 
 const Library = () => {
-
-    const matchImport = (string) => {
-        switch (string) {
-            case 'Renewal':
-                return Renewal
-            case 'Electrostatic':
-                return Electrostatic
-            case 'ElectroQA':
-                return ElectroQA
-            default:
-                return null
-
-        }
-    }
     
     return (
         <section>
@@ -40,15 +23,24 @@ const Library = () => {
                             <p>{doc.desc}</p>
                         </div>
                         <div className="doc-btn">
-                            <a href={matchImport(doc.link)} >
+                            <a href={`/docs/pdf/${doc.pdf}`} >
                                 <button className="btn-view">View</button>
                             </a>
                         </div>
                         <div className="doc-btn">
-                            <a href={matchImport(doc.link)} download >
-                                <button className="btn-dwn">Download</button>
+                            <a href={`/docs/pdf/${doc.pdf}`} download >
+                                <button className="btn-dwn">Download pdf</button>
                             </a>
                         </div>
+                        {doc.docx !== null ?
+                            <div className="doc-btn">
+                                <a href={`/docs/docx/${doc.docx}`} download >
+                                    <button className="btn-dwn">word/docx</button>
+                                </a>
+                            </div>
+                        :
+                            null
+                        }
                     </div>
                 ))}
             </div>

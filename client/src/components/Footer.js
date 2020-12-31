@@ -1,11 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { links } from '../data'
+import { links } from '../data';
+import { FacebookFilled } from '@ant-design/icons';
 
 function Footer() {
   
     return (
     <footer>
+        <div className="socal">
+            <a href="https://www.facebook.com/CarpetAdvantage">
+                <FacebookFilled />
+            </a>
+            
+        </div>
         <nav>
             <ul>
                 {links.map((x, i) => (

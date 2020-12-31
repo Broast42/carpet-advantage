@@ -24,6 +24,36 @@
 .camp-text-area{
     text-align: center;
     font-size: 3rem;
+
+    .subtext{
+        margin: 10px auto;
+        font-size: 2rem;
+        max-width: 800px;
+    }
+
+    .sub-it{
+        font-style: italic;
+    }
+}
+
+.camp-info{
+    text-align: center;
+    font-size: 1.8rem;
+    .blue{
+        color: $blue;
+    }
+
+    .camp-list{
+        width: 600px;
+        margin: 20px auto;
+        text-align: start;
+        list-style-type: circle;
+        list-style-position: inside;
+
+        @media (max-width: $tablet) {
+            width: 100%;
+        }
+    }
 }
 
 .camp-pics{

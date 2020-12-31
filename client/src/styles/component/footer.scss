@@ -2,6 +2,15 @@ footer{
     background: $blue-ltblue;
     padding: 20px;
 
+    .socal{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 3rem;
+        color: $yellow;
+        text-shadow: 1px 1px 1px black;
+
+    }
+
     .copyright{
         margin-top: 35px;
         text-align: center;
