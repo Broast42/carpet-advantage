@@ -2,6 +2,8 @@ import React from 'react';
 import apartmentbld from './bottomtagimg/apartmentbld.jpg';
 import houses from './bottomtagimg/houses.jpeg';
 import rotovac from './bottomtagimg/RotovacFrontView.jpg';
+import realPage from './bottomtagimg/real-page.png';
+import vendorCafe from './bottomtagimg/vendor-cafe.png';
 
 const BottomTagBox = () => {
     return(
@@ -45,6 +47,19 @@ const BottomTagBox = () => {
                         
                     </div>
                 </div>
+            </div>
+            <div className="payment">
+                <p>We partner with these payment proccesing vendors.</p>
+                <a href="https://www.realpage.com">
+                    <img src={realPage} alt="RealPage Logo" />
+                    <p>RealPage</p>
+                </a>
+                <a href="https://www.vendorcafe.com/">
+                    <div className="vendor-cafe">
+                        <img src={vendorCafe} alt="VendorCafe Logo" />
+                    </div>
+                </a>
+                
             </div>
         </div>
     );

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import {links} from '../data'
-import calogo from './calogo.png'
+import {links} from '../data';
+import calogo from './calogo.png';
+import { MenuOutlined } from '@ant-design/icons';
 
 function Header() {
     
@@ -34,7 +35,7 @@ function Header() {
                 </ul>
                 
                 <div className="menu-btn" onClick={(e) => {e.preventDefault(); setMenuOpen(!menuOpen)} }>
-                    MENU
+                    <MenuOutlined style={{color: '#ebeb03'}}/>
                 </div>
                 
             </nav>
@@ -43,7 +44,7 @@ function Header() {
                 
                 <ul>
                     {links.map((x, i) => (
-                        <NavLink to={x.link} activeClassName="selected-link">
+                        <NavLink to={x.link} activeClassName="selected-link" onClick={() => setMenuOpen(!menuOpen)}>
                             <li key={i}>{x.name}</li>
                         </NavLink>
                     ))}    
