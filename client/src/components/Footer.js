@@ -26,9 +26,9 @@ function Footer() {
         <p className="copyright">
             Copyright {String.fromCharCode(169)} {new Date().getFullYear()} Carpet Advantage - All Rights Reserved.
         </p>
-        <p className='noaa'>
+        {/* <p className='noaa'>
             <a href="https://www.noaamembers.com/">PROUD MEMBER OF THE NOAA</a>
-        </p>
+        </p> */}
     
         
     </footer>
