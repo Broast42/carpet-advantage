@@ -13,22 +13,23 @@ section{
     width: 40%;
     height: 370px;
     border: 4px outset #4d79ff;
-    background: $yellow-ltyellow;
+    background: url("../../components/pages/home/components/tagimg/water2.jpg");
+    background-size: cover;
     text-align: center;
     padding: 70px;
 
     h2 {
         font-size: 4rem;
         font-family: $tag-font;
-        color:$blue ;
-        text-shadow: 1px 1px 2px $ltblue; 
+        color:$yellow ;
+        text-shadow: 2px 2px 1px $black, -1px -1px 0px $ltblue; 
     }
 
     p {
         font-size: 2rem;
         margin: 3px;
-        color: $black;
-        text-shadow: 1px 1px 1px $white;    
+        color: $white;
+        text-shadow: 2px 2px 1px $black;    
     }
 
     @media (max-width: $small-pc) {
@@ -49,6 +50,7 @@ section{
 }
 
 .tag-line-2 {
+   
     margin-top: 40px;
 }
 
@@ -90,4 +92,5 @@ section{
 
 .home-message{
     padding: 40px;
+    text-align: center;
 }

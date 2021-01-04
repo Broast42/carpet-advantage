@@ -27,7 +27,7 @@
 }
 
 .before-after-main{
-    font-size: 1.6rem;
+    font-size: 2rem;
 
 }
 
@@ -76,6 +76,7 @@
     text-align: center;
 }
 
+
 .single-container{
     justify-content: space-evenly;
     align-items: center;
@@ -84,6 +85,13 @@
     p{
         width: 50%;
     }
+
+    @media (max-width: $phone) {
+        p{
+            padding-left: 6px;
+            font-size: 1.8rem;
+        }   
+    } 
 }
 
 .single-container:nth-child(odd){

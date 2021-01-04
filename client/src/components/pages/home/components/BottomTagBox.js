@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import apartmentbld from './bottomtagimg/apartmentbld.jpg';
 import houses from './bottomtagimg/houses.jpeg';
 import rotovac from './bottomtagimg/RotovacFrontView.jpg';
@@ -19,7 +20,7 @@ const BottomTagBox = () => {
                     </div>
                     <div className="btm-tag-info">
                         <p>Vacants</p>
-                        <p>Occupides</p>
+                        <p>Occupide Apartments</p>
                         <p>Common Areas</p>
                     </div>
                 </div>
@@ -29,8 +30,11 @@ const BottomTagBox = () => {
                         <h3>Partner with property and maintenance managers</h3>
                     </div>
                     <div className="btm-tag-info">
-                        <p>Keep up to your standards on your common areas with our CACCMP.  </p>
-                        <p>Common Area Carpet Cleaning Maintenance Plan</p>
+                        <Link to="/camp">
+                            <p>Keep up to your standards on your common areas with CAMP .  </p>
+                            <p>Common Area Maintenance Plan</p>
+                        </Link>
+                        
                     </div>
                 </div>
                 <div>

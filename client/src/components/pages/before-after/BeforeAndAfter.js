@@ -12,7 +12,7 @@ const BeforAndAfter = () => {
             </div>
             <div className="before-after-heading">
                 <h2>Take a look at some of our work.</h2>
-                <p>click on any picture for a better view</p>
+                <p>Click on any picture for a better view!</p>
             </div>
             <div className="before-after-main">
                 {beforeAfter.map((x, index) => (
@@ -24,9 +24,6 @@ const BeforAndAfter = () => {
                         }
                     </div>
                 ))}
-                
-                {/* <MultiPic/>
-                <SinglePic/> */}
             </div>
         </section>
     )

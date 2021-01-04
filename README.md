@@ -36,4 +36,4 @@ init- which holds initial sass files -- global, mixins, variables, and reset
 
 styles are reset using  http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6ae4bf51-08ec-415e-9b21-fbfaae0bb0bf/deploy-status)](https://app.netlify.com/sites/carpet-advantage/deploys)

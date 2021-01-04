@@ -31,7 +31,7 @@ function ElectroStatic() {
                 <div>
                     <p>Peace of mind is worth its weight in gold.</p>
                     <p>Spraying and wiping surfaces is important to remove dirt and grime.</p>
-                    <p>But the act of electrostatic disinfecting is one more step to insuring a clean and safe enviroment.</p>
+                    <p>But the act of electrostatic disinfecting is one more step to insuring a clean and safe environment.</p>
                 </div> 
             </div>
 
@@ -58,7 +58,7 @@ function ElectroStatic() {
 
                         <div className={`electro-info-box ${panel === 2 ? "disBlock" : "disNone"}`}>
                             <div className="electro-info-title">
-                                <p>EPA approved dissinfectant</p>
+                                <p>EPA approved disinfectant</p>
                             </div>
                             <div className="electro-info-content">
                                 <p>
@@ -74,7 +74,7 @@ function ElectroStatic() {
                             </div>
                             <div className="electro-info-content">
                                 <p>
-                                    Fittness rooms, door handels, railings,
+                                    Fittness rooms, door handles, railings,
                                     party rooms, laundry rooms, elevators,
                                     mail centers, public bathrooms, and locker rooms, 
                                     just to name a few!
@@ -84,7 +84,7 @@ function ElectroStatic() {
 
                         <div className={`electro-info-box ${panel === 4 ? "disBlock" : "disNone"}`}>
                             <div className="electro-info-title electro-title-spacing">
-                                <p>Can be preformed during business hours</p>
+                                <p>Can be performed during business hours</p>
                             </div>
                             <div className="electro-info-content">
                                 <div className="electro-number">
@@ -97,7 +97,6 @@ function ElectroStatic() {
                     </div>
                 </div>
             </div>
-            {/* <button onClick = {() => changePanel()}>test</button> */}
         </div>
     
   );
