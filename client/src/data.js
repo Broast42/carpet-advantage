@@ -89,7 +89,7 @@ const aboutTags = [
 const library = [
     {
         name: 'Renewal Carpet Cleaning',
-        desc: 'Information on carpet cleaning for tennants who have renewed their lease.',
+        desc: 'Information on carpet cleaning for tenants who have renewed their lease.',
         pdf:'renewal.pdf',
         docx: null, 
     },
