@@ -20,7 +20,7 @@ const BottomTagBox = () => {
                     </div>
                     <div className="btm-tag-info">
                         <p>Vacants</p>
-                        <p>Occupide Apartments</p>
+                        <p>Occupied Apartments</p>
                         <p>Common Areas</p>
                     </div>
                 </div>
@@ -53,18 +53,19 @@ const BottomTagBox = () => {
                 </div>
             </div>
             <div className="payment">
-                <p>We partner with these payment proccesing vendors.</p>
+                <p>We partner with these payment proccesing vendors</p>
                 <a href="https://www.realpage.com">
                     <img src={realPage} alt="RealPage Logo" />
                     <p>RealPage</p>
                 </a>
-                <a href="https://www.vendorcafe.com/">
-                    <div className="vendor-cafe">
-                        <img src={vendorCafe} alt="VendorCafe Logo" />
-                    </div>
-                </a>
                 
             </div>
+            <a href="https://www.vendorcafe.com/">
+                <div className="vendor-cafe">
+                    <img src={vendorCafe} alt="VendorCafe Logo" />
+                </div>
+            </a>
+
         </div>
     );
 };
