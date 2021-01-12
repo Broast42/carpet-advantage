@@ -8,7 +8,7 @@
     width: 95%;
     margin: 10px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
     @media (max-width: $small-pc) {
         flex-direction: column;
@@ -50,7 +50,6 @@
 .payment{
     width: 50%;
     margin: 10px auto;
-    //margin-bottom: 40px;
     text-align: center;
     font-size: 1.6rem;
 
@@ -67,17 +66,13 @@
 }
 
 .vendor-cafe{
-        padding: 5px;
-        background: rgb(14, 11, 10);
-        width: 250px;
-        margin: 0 auto;
-        margin-bottom: 40px;
-        border-radius: 25px;
-        img{
-            height: 30px;
-        }
-
-        // @media (max-width: $phone) {
-        //     margin: 0px
-        // }
+    padding: 5px;
+    background: rgb(14, 11, 10);
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    img{
+        height: 30px;
     }
+}
