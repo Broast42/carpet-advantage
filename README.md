@@ -4,9 +4,13 @@ Commercial web-site for Carpet Advantage Carpet cleaners serving Northeast Ohio
 ## Libraries
 
 This app was created using React
+
 Libraries used include:
+
 React Router,
+
 Ant Design,
+
 Sass (node-sass)
 
 ## Data
@@ -25,7 +29,10 @@ In the public folder there are two folders that hold documents (pdf/docx) and im
 
 This app is styled using sass
 
-Each component has its own sass file used to style that page.
+
+Each component has its own sass file used to style that page
+with an ecception to the home page where each component has its own scss file.
+
 Upon creating new pages be sure to import the pages sass file into styles.scss located in src/styles folder.
 
 This folder is broken down into two sub folders 
