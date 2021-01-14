@@ -89,19 +89,19 @@ const aboutTags = [
 const library = [
     {
         name: 'Renewal Carpet Cleaning',
-        desc: 'Information on carpet cleaning for tenants who have renewed their lease.',
+        desc: 'Information on carpet cleaning for tenants who have renewed their lease',
         pdf:'renewal.pdf',
         docx: null, 
     },
     {
-        name: 'Electrostatic disinfecting',
-        desc: 'A quick overview of Electrostatic Disinfecting',
+        name: 'Electrostatic Disinfecting',
+        desc: 'A quick overview of electrostatic disinfecting',
         pdf:'electrostatic-quick-sheet.pdf',
         docx: null 
     },
     {
         name: 'Electrostatic Q & A',
-        desc: 'A more in-depth look into Electrostatic Disinfecting',
+        desc: 'A more in-depth look into electrostatic disinfecting',
         pdf:'electrostatic-qa.pdf',
         docx: null
     },
@@ -112,16 +112,16 @@ const library = [
         docx: null
     },
     {
-        name: 'Education- Cost savings',
-        desc: 'How much can you save by saving your carpets.',
+        name: 'Cost savings',
+        desc: 'How much can you save by saving your carpets',
         pdf:'savings.pdf',
-        docx: 'savings.docx',
+        docx: null,
     },
     {
         name: 'CAMP- Preparation is Everything',
-        desc: 'Common Area Maintenance Plan- How much can you save.',
+        desc: 'Common Area Maintenance Plan- How much can you save',
         pdf:'camp.pdf',
-        docx: 'camp.docx',
+        docx: null,
     },
 ]
 

@@ -29,7 +29,7 @@ const Library = () => {
                         </div>
                         <div className="doc-btn">
                             <a href={`/docs/pdf/${doc.pdf}`} download >
-                                <button className="btn-dwn">Download pdf</button>
+                                <button className="btn-dwn">Download</button>
                             </a>
                         </div>
                         {doc.docx !== null ?
