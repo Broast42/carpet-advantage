@@ -31,7 +31,7 @@ This app is styled using sass
 
 
 Each component has its own sass file used to style that page
-with an ecception to the home page where each component has its own scss file.
+with an exception to the home page where each component has its own scss file.
 
 Upon creating new pages be sure to import the pages sass file into styles.scss located in src/styles folder.
 
