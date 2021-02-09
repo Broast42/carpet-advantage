@@ -1,6 +1,6 @@
 import React from 'react';
 import { aboutTags } from '../../../data';
-import apartment from './aboutimg/apartmentbld.jpg';
+import apartment from '../home/components/bottomtagimg/apartmentbld.jpg';
 import apartment2 from './aboutimg/apartmentbld2.jpg';
 import flag from './aboutimg/flag.jpg'
 
