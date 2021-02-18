@@ -5,6 +5,7 @@ import houses from './bottomtagimg/houses.jpeg';
 import rotovac from './bottomtagimg/RotovacFrontView.jpg';
 import realPage from './bottomtagimg/real-page.png';
 import vendorCafe from './bottomtagimg/vendor-cafe.png';
+import nexus from './bottomtagimg/nexus.png';
 
 const BottomTagBox = () => {
     return(
@@ -63,6 +64,11 @@ const BottomTagBox = () => {
             <a href="https://www.vendorcafe.com/">
                 <div className="vendor-cafe">
                     <img src={vendorCafe} alt="VendorCafe Logo" />
+                </div>
+            </a>
+            <a href="https://nexussystems.com/supplier-self-service/">
+                <div className="nexus">
+                    <img src={nexus} alt="Nexus Logo"/>
                 </div>
             </a>
 

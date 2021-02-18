@@ -1,17 +1,41 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { links } from '../data';
-import { FacebookFilled } from '@ant-design/icons';
+import { FacebookFilled, LinkedinFilled, } from '@ant-design/icons';
 
+//move to import when socal site is needed to be linked
+// InstagramFilled, YoutubeFilled, TwitterSquareFilled
 function Footer() {
   
     return (
     <footer>
         <div className="socal">
+            {/* Facebook */}
             <a href="https://www.facebook.com/CarpetAdvantage">
                 <FacebookFilled />
             </a>
             
+            {/* Twitter */}
+            {/* <a href="https://www.facebook.com/CarpetAdvantage">
+                <TwitterSquareFilled/>
+            </a> */}
+
+            {/* LinkedIn */}
+            <a href="https://www.linkedin.com/company/carpetadvantage/">
+                <LinkedinFilled/>
+            </a>
+             
+            {/* Instagram */}
+            {/* <a href="https://www.facebook.com/CarpetAdvantage">
+                <InstagramFilled/>
+            </a> */}
+
+            {/* YouTube */}
+            {/* <a href="https://www.facebook.com/CarpetAdvantage">
+                <YoutubeFilled/>
+            </a> */}
+
+
         </div>
         <nav>
             <ul>
@@ -23,12 +47,14 @@ function Footer() {
             </ul>  
         </nav>
 
+        <p className="iandb">
+            Fully Insured and Bonded  
+        </p>
+
         <p className="copyright">
             Copyright {String.fromCharCode(169)} {new Date().getFullYear()} Carpet Advantage - All Rights Reserved.
         </p>
-        {/* <p className='noaa'>
-            <a href="https://www.noaamembers.com/">PROUD MEMBER OF THE NOAA</a>
-        </p> */}
+        
     
         
     </footer>
