@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import {links} from '../data';
 import calogo from './calogo.png';
-import { MenuOutlined } from '@ant-design/icons';
+import { MenuOutlined, PhoneFilled } from '@ant-design/icons';
 
 function Header() {
     
@@ -21,6 +21,7 @@ function Header() {
                 
                 <div className="ph-num">
                     <a href="tel:440-729-8350">
+                        <PhoneFilled/>
                         (440) 729-8350
                     </a>
                 </div>
