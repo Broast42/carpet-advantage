@@ -3,6 +3,7 @@ import TagBox from './components/TagBox';
 import New from './components/New';
 import ElectroStatic from './components/ElectroStatic'
 import BottomTagBox from './components/BottomTagBox'
+import SheduleForm from './components/ScheduleForm';
 import { Alert } from 'antd';
 import { message } from '../../../data';
 
@@ -22,7 +23,7 @@ function Home() {
             :
                 null
             }
-            
+            <SheduleForm />
             <New />
             <ElectroStatic />
             <BottomTagBox />
