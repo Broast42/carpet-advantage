@@ -55,8 +55,6 @@ function Footer() {
             Copyright {String.fromCharCode(169)} {new Date().getFullYear()} Carpet Advantage - All Rights Reserved.
         </p>
         
-    
-        
     </footer>
     
   );
