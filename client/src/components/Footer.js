@@ -37,6 +37,7 @@ function Footer() {
 
 
         </div>
+        
         <nav>
             <ul>
                 {links.map((x, i) => (
@@ -54,8 +55,6 @@ function Footer() {
         <p className="copyright">
             Copyright {String.fromCharCode(169)} {new Date().getFullYear()} Carpet Advantage - All Rights Reserved.
         </p>
-        
-    
         
     </footer>
     

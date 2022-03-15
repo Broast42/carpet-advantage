@@ -4,6 +4,7 @@ const links = [
     {name: "BEFORE AND AFTER", link: '/beforeandafter'},
     {name: "LIBRARY", link: "/library"},
     {name: "GO CAMPING", link: '/camp'},
+    {name: "SERVICE REQUEST", link: '/request'},
     {name: "ABOUT US", link:"/about"}
 ]
 
@@ -126,6 +127,13 @@ const library = [
 ]
 
 const beforeAfter = [
+    {
+        name: 'New carpet with a big problem',
+        desc: 'This 1 year old carpet had a big stain in the hallway',
+        before: 'hall-door_0-1.jpg',
+        after: ['hall-door_1-1.jpg'],
+        afterDesc: 'Luckily the customer had extra carpet from the intaller. Brand new again!',
+    },
     {
         name: 'Fray at bedroom doorway',
         desc: 'It is common for cat owners to see this.',

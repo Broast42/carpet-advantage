@@ -44,6 +44,10 @@
         p{
             margin: 5px 0px;
         }
+
+        a{
+            color: black;
+        }
     }
 }
 
@@ -60,6 +64,10 @@
 
     img{
         height: 50px;
+    }
+
+    a{
+        color:black;
     }
 
     
@@ -86,5 +94,23 @@
 
     img{
         height: 30px;
+    }
+}
+
+.noaa{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+
+    img{
+        width: 400px
     }
 }
