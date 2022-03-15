@@ -17,7 +17,6 @@ function App() {
       <Header/>
       
       <Routes>
-
         <Route path="/beforeandafter" element={<BeforAndAfter/>}/>
         <Route path="/camp" element={<Camp/>} />
         <Route path="/request" element={<Request/>}/>
@@ -25,7 +24,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services/>}/>
         <Route path="/" element={ <Home/>}/>
-    
       </Routes>
     
       <Footer/>
