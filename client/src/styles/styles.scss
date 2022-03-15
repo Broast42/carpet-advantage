@@ -1,8 +1,10 @@
 /*Initialization imports */
+//@import 'antd/dist/antd.css';
 @import './init/reset.scss';
 @import './init/variables.scss';
 @import './init/mixins.scss';
 @import './init/global.scss';
+
 
 /*component imports*/
 @import './component/header.scss';
@@ -16,3 +18,4 @@
 @import './component/library.scss';
 @import './component/camp.scss';
 @import './component/before-after.scss';
+@import './component/request.scss';

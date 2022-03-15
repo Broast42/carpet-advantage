@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Carousel } from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/lib/carousel/style/css'
 import before1 from './realimg/clean_before.jpeg'
 import after1 from './realimg/clean_after.jpeg';
 import stretchBefore from './realimg/stretch-before.jpg';

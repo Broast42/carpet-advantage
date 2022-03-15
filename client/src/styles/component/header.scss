@@ -15,7 +15,10 @@ header {
         font-family: $logo-font;
         font-size: 3.3rem;
         color: $blue;
-        text-shadow: 1px 1px 2px $yellow, 1px 1px 3px $black;  
+        text-shadow: 1px 1px 2px $yellow, 1px 1px 3px $black; 
+        a{
+            color: $blue;
+        } 
     }
 
     @media (max-width: $tablet) {
@@ -28,6 +31,9 @@ header {
 .ph-num {
     font-size: 2.8rem;
     margin-top: 8px;
+    a{
+        color: black;
+    }
 }
 
 .main-nav{
@@ -38,6 +44,7 @@ header {
 
 .top-nav{
     height: 50px;
+    padding-top: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +52,7 @@ header {
 
     @media (max-width: $tablet) {
         justify-content: flex-end;
+        padding-top: 0px;
     }
 }
 

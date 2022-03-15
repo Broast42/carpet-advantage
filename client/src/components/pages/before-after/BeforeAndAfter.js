@@ -2,6 +2,7 @@ import React from 'react';
 import MultiPic from "./component/MultiPic";
 import SinglePic from "./component/SinglePic";
 import { beforeAfter } from "../../../data";
+import 'antd/lib/image/style/css'
 
 const BeforAndAfter = () => {
 

@@ -13,28 +13,35 @@ section{
     width: 40%;
     height: 370px;
     border: 4px outset #4d79ff;
-    background: url("../../components/pages/home/components/tagimg/water2.jpg");
+    background: url("../../components/pages/home/components/tagimg/blue-yellow-drop.jpg");
     background-size: cover;
+    background-position: center;
     text-align: center;
-    padding: 70px;
+    //padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     h2 {
+        width: 88%;
+        margin-bottom: 25px;
         font-size: 4rem;
         font-family: $tag-font;
-        color:$yellow ;
-        text-shadow: 2px 2px 1px $black, -1px -1px 0px $ltblue; 
+        color: $blue ;
+        text-shadow: 2px 2px 1px $yellow, -1px -1px 0px $yellow; 
     }
 
     p {
         font-size: 2rem;
-        margin: 3px;
+        margin: 10px;
         color: $white;
         text-shadow: 2px 2px 1px $black;    
     }
 
     @media (max-width: $small-pc) {
         width: 100%;
-        height: 300px;
+        height: 400px;
     }
 
     @media (max-width: $phone){

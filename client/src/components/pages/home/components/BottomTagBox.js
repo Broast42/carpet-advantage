@@ -6,10 +6,11 @@ import rotovac from './bottomtagimg/RotovacFrontView.jpg';
 import realPage from './bottomtagimg/real-page.png';
 import vendorCafe from './bottomtagimg/vendor-cafe.png';
 import nexus from './bottomtagimg/nexus.png';
+import noaa from './bottomtagimg/noaa.jpg';
 
 const BottomTagBox = () => {
     return(
-        <div>
+        <article>
             <div className="btm-title">
                 <h2>Serving Northeast Ohio</h2>
             </div>
@@ -59,20 +60,26 @@ const BottomTagBox = () => {
                     <img src={realPage} alt="RealPage Logo" />
                     <p>RealPage</p>
                 </a>
-                
+                <a href="https://www.vendorcafe.com/">
+                    <div className="vendor-cafe">
+                        <img src={vendorCafe} alt="VendorCafe Logo" />
+                    </div>
+                </a>
+                <a href="https://nexussystems.com/supplier-self-service/">
+                    <div className="nexus">
+                        <img src={nexus} alt="Nexus Logo"/>
+                    </div>
+                </a>
             </div>
-            <a href="https://www.vendorcafe.com/">
-                <div className="vendor-cafe">
-                    <img src={vendorCafe} alt="VendorCafe Logo" />
-                </div>
-            </a>
-            <a href="https://nexussystems.com/supplier-self-service/">
-                <div className="nexus">
-                    <img src={nexus} alt="Nexus Logo"/>
-                </div>
-            </a>
+            <div className='noaa'>
+                <p>Proud Member</p>
+                <img src={noaa} alt="Noaa Logo"/>
 
-        </div>
+            </div>
+            
+            
+
+        </article>
     );
 };
 
