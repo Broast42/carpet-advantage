@@ -37,6 +37,7 @@ function Footer() {
 
 
         </div>
+        
         <nav>
             <ul>
                 {links.map((x, i) => (
